@@ -12,7 +12,7 @@ int main()
 
     int quotient;  //create a variable of the type "int" and call it "quotient"
 
-    quotient = a / b;  //divide the value stored in "a" by the value stored in "b"
+    quotient = a / b;  //divide the value stored in "a" by the value stored in "b" and store the result in "quotient"
 
     cout << "quotient: " << quotient << endl;
 
