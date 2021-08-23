@@ -16,7 +16,7 @@ int main()
 
     cout << "pi: " << setprecision(15) << pi << endl;
     //setprecision(15) sets the precision for display of the value stored in "pi" to 15 digits
-    //the remaining digits are discarded
+    //the remaining digits are not displayed
 
     return 0;
 }
