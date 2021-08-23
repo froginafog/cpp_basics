@@ -12,7 +12,7 @@ int main()
 
     int product;  //create a variable of the type "int" and call it "product"
 
-    product = a * b;  //multiply the value stored in "a" by the value stored in "b"
+    product = a * b;  //multiply the value stored in "a" by the value stored in "b" and store the result in "product"
 
     cout << "product: " << product << endl;
 
