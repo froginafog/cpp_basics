@@ -9,7 +9,7 @@ int main()
 
 	for(int i = 0; i < num_strings; i++)
 	{
-        cout << array_of_strings[i] << endl;
+        	cout << array_of_strings[i] << endl;
 	}
 
 	return 0;
