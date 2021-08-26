@@ -26,3 +26,7 @@ unsigned long long int factorial(unsigned long long int n)
 		return n * factorial(n-1);
 	}
 }
+
+/*
+4!: 24
+*/
