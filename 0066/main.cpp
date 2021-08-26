@@ -5,13 +5,13 @@ using namespace std;
 int main()
 {
     //&& means "and"
-	cout << "true  && true : " << (true  && true) << endl;
+    cout << "true  && true : " << (true  && true) << endl;
     cout << "true  && false: " << (true  && false) << endl;
     cout << "false && true : " << (false && true) << endl;
     cout << "false && false: " << (false && false) << endl;
     cout << "-------------------------------------------" << endl;
     //|| means "||"
-	cout << "true  || true : " << (true  || true) << endl;
+    cout << "true  || true : " << (true  || true) << endl;
     cout << "true  || false: " << (true  || false) << endl;
     cout << "false || true : " << (false || true) << endl;
     cout << "false || false: " << (false || false) << endl;
