@@ -27,7 +27,7 @@ int getNumber(int * digits, int numberOfDigits)
 	number = 0;
 	for(i = 0; i < numberOfDigits; i++)
 	{
-		number = number + *(digits + i) * pow(10,numberOfDigits - 1 - i);
+		number = number + digits[i] * pow(10,numberOfDigits - 1 - i);
 	}
 	return number;
 }
