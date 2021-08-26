@@ -33,23 +33,11 @@ int main()
 		cout << endl;
 	}
 
-	cout << "delete the array of pointers" << endl;
-
 	for(int i = 0; i < num_rows; i++)
 	{
 		delete [] A[i];
 	}
 	delete [] A;
-
-	cout << "A: " << endl;
-	for(int i = 0; i < num_rows; i++)
-	{
-		for(int j = 0; j < num_columns; j++)
-		{
-			cout << A[i][j] << ' ';
-		}
-		cout << endl;
-	}
 
 	return 0;
 }
@@ -58,8 +46,4 @@ int main()
 A:
 11 12 13
 21 22 23
-delete the array
-A:
-6567568 0 1674688
-1674688 0 1643088
  */
