@@ -53,7 +53,7 @@ int main()
 
 	cout << "account_1.getName(): " << account_1.getName() << endl;
 	cout << "account_1.getID()  : " << account_1.getID() << endl;
-    cout << "----------------------------------------" << endl;
+    	cout << "----------------------------------------" << endl;
 	cout << "account_2.getName(): " << account_2.getName() << endl;
 	cout << "account_2.getID()  : " << account_2.getID() << endl;
 
