@@ -35,11 +35,11 @@ public:
 int main()
 {
 	//create an object of the class "Account"
-	//"account1" is the name of the object
+	//"account_1" is the name of the object
 	Account account_1;
 
 	//create an object of the class "Account"
-	//"account2" is the name of the object
+	//"account_2" is the name of the object
 	Account account_2;
 
 	account_1.setName("Bob The Great");
