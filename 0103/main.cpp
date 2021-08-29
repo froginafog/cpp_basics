@@ -13,8 +13,7 @@ int main()
 	numbers.push_back(4);
 	numbers.push_back(5);
 
-	size_t num_elements = numbers.size();
-	cout << "num_elements: " << num_elements << endl;
+	cout << "numbers.size(): " << numbers.size() << endl;
 
 	cout << "numbers: ";
 	for(auto it = numbers.begin(); it != numbers.end(); it++)  //it = iterator
@@ -28,8 +27,7 @@ int main()
 	cout << "clear the vector" << endl;
 	numbers.clear();  //remove all elements from the vector
 
-	num_elements = numbers.size();
-	cout << "num_elements: " << num_elements << endl;
+	cout << "numbers.size(): " << numbers.size() << endl;
 
 	cout << "numbers: ";
 	for(auto it = numbers.begin(); it != numbers.end(); it++)  //it = iterator
@@ -44,10 +42,10 @@ int main()
 }
 
 /*
-num_elements: 5
+numbers.size(): 5
 numbers: 1 2 3 4 5
 -------------------------------------------
 clear the vector
-num_elements: 0
+numbers.size(): 0
 numbers:
  */
