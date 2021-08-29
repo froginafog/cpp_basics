@@ -8,11 +8,11 @@ int main()
 	vector<int> numbers;
 
 	cout << "numbers.size(): " << numbers.size() << endl;
-	numbers.push_back(10);
+	numbers.push_back(10);  //store an item in the last position of the vector
 	cout << "numbers.size(): " << numbers.size() << endl;
-	numbers.push_back(20);
+	numbers.push_back(20);  //store an item in the last position of the vector
 	cout << "numbers.size(): " << numbers.size() << endl;
-	numbers.push_back(30);
+	numbers.push_back(30);  //store an item in the last position of the vector
 	cout << "numbers.size(): " << numbers.size() << endl;
 
 	cout << "----------------------------------" << endl;
