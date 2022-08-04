@@ -19,8 +19,8 @@ int main()
 
     cout << endl;
 
-    cout << "(*p)++" << endl;  //this also increases the value of n
-    (*p)++;
+    cout << "(*p)++" << endl;  
+    (*p)++;  //this also increases the value of n
     cout << "n: " << n << endl;
     cout << "&n: " << &n << endl;
     cout << "p: " << p << endl;
