@@ -7,7 +7,7 @@ void print_matrix_of_integers(int num_rows, int matrix[][5]) //we must specify t
     for(int i = 0; i < num_rows; i++)
     {
         int num_columns = sizeof(matrix[i])/sizeof(int);
-        for(int j = 0; j < 5; j++)
+        for(int j = 0; j < num_columns; j++)
         {
             cout << matrix[i][j] << " ";
         }
