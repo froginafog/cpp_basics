@@ -18,7 +18,7 @@ int main()
 
 	integerPointer = &n;
 	//assign the address of "n" to "integerPointer"
-	//now "integerPointer" points to "c"
+	//now "integerPointer" points to "n"
 
 	doublePointer = &x;
 	//assign the address of "x" to "doublePointer"
