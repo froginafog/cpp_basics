@@ -72,7 +72,7 @@ int main()
 
 	for(i = 0; s[i] != '\0'; i++)
 	{
-		current = &s[i];  //assign the address of the ith of "s" to "current"
+		current = &s[i];  //assign the address of the ith element of "s" to "current"
 		current++;  //go to the next adjacent address
 	}
 	current = first;
